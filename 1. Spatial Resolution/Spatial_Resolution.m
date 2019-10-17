@@ -1,3 +1,7 @@
+%Gül Eda Aydemir - Spatial Resolution the 'Rose1024.tif' image.
+%Download the 'Rose1024.tif' to your current folder.
+%03/2019
+
 T = imread('Rose1024.tif');
 figure
 subplot(2,3,1)

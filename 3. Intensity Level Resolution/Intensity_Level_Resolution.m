@@ -1,3 +1,7 @@
+%Gül Eda Aydemir - Intensity Level Resolution the 'Ctskull-256.tif' image.
+%Download the 'Ctskull-256.tif' to your current folder.
+%03/2019
+
 clc;clear all;close all;
  
 T=imread('Ctskull-256.tif ');
