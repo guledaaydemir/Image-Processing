@@ -1,5 +1,11 @@
 # Image Processing
- CME 4412 Introduction to Image Processing 
+> Gül Eda Aydemir - Contact with me! :)
+
+> www.linkedin.com/in/gul-eda-aydemir
+
+> guledaaydemir@gmail.com
+
+CME 4412 Introduction to Image Processing 
 
  
 ###### 1. [Spatial Resolution](https://github.com/guledaaydemir/Image-Processing/tree/master/1.%20Spatial%20Resolution) 
@@ -34,8 +40,16 @@ Write a Matlab function output = stretch(input, T1, T2) that will perform the pi
  
 Use your stretch function to increase the contrast of the kids.tif image. Choose T1 and T2 so that the output image has a histogram which spans the full range of values from 0 to 255. Display the output image and its histogram. 
 
-![Piecewise Linear Transformation Functions Original Histogram](https://github.com/guledaaydemir/Image-Processing/blob/master/5.%20Piecewise%20Linear%20Transformation/Original_Histogram.png?raw=true)
+<img src="https://github.com/guledaaydemir/Image-Processing/blob/master/5.%20Piecewise%20Linear%20Transformation/Original_Histogram.png?raw=true" width="300" height="300"><img src="https://github.com/guledaaydemir/Image-Processing/blob/master/5.%20Piecewise%20Linear%20Transformation/Result_Histogram.png?raw=true" width="300" height="300">
 
-![Piecewise Linear Transformation Functions Result Histogram](https://github.com/guledaaydemir/Image-Processing/blob/master/5.%20Piecewise%20Linear%20Transformation/Result_Histogram.png?raw=true)
+###### 6. [Histogram Equalization](https://github.com/guledaaydemir/Image-Processing/tree/master/6.%20Histogram%20Equalization)
+
+Write a Matlab function Y=equalize(X) that equalizes the histogram of a given image X. Apply your equalize function to different images.Compare the histograms of equalized and original images.
+
+<img src="https://github.com/guledaaydemir/Image-Processing/blob/master/6.%20Histogram%20Equalization/Kids_Histogram_Equalized_Result.png" width="300" height="300"><img src="https://github.com/guledaaydemir/Image-Processing/blob/master/6.%20Histogram%20Equalization/Clown_Histogram_Equalized_Result.png" width="300" height="300">
+
+Compare your function with the built-in histogram equalization function of MATLAB. 
+
+<img src="https://github.com/guledaaydemir/Image-Processing/blob/master/6.%20Histogram%20Equalization/Histogram_Equalization_Compare_Result.PNG" width="300" height="300">
 
 Special thanks to, [Özlem Öztürk](http://debis.deu.edu.tr/akademik/index.php?cat=3&akod=20013757). 
