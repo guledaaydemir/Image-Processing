@@ -56,6 +56,24 @@ Compare your function with the built-in histogram equalization function of MATLA
 
 Write a Matlab function Y=match(X,Z) that matches the histogram of a given image X to the histogram of a reference image Z. You can use your own equalize() function in your implementation.(*imhist used instead)
 
-<img src="https://github.com/guledaaydemir/Image-Processing/blob/master/7.%20Histogram%20Matching/Histogram_Matching_Result.png" width="300" height="300">
+![Histogram Matching](https://github.com/guledaaydemir/Image-Processing/blob/master/7.%20Histogram%20Matching/Histogram_Matching_Result.png?raw=true)
 
+###### 7. [Combining Histogram Equalization and Matching with GUI](https://github.com/guledaaydemir/Image-Processing/tree/master/8.%20Combining%20Histogram%20Equalization%20and%20Matching%20with%20GUI)
+
+Try to embed these two functions ([equalize](https://github.com/guledaaydemir/Image-Processing/blob/master/6.%20Histogram%20Equalization/equalize.m) and [match](https://github.com/guledaaydemir/Image-Processing/blob/master/7.%20Histogram%20Matching/match.m)) in a Matlab GUI.
+
+-	Step 1. Select a function (Histogram Equalize)
+![Step 1](https://github.com/guledaaydemir/Image-Processing/blob/master/8.%20Combining%20Histogram%20Equalization%20and%20Matching%20with%20GUI/step_1.png?raw=true)
+
+-	Step 2. Browse an image – Show result
+![Step 2](https://github.com/guledaaydemir/Image-Processing/blob/master/8.%20Combining%20Histogram%20Equalization%20and%20Matching%20with%20GUI/step_2.png?raw=true)
+
+-	Step 3. Select a function (Histogram Matching)
+![Step 3](https://github.com/guledaaydemir/Image-Processing/blob/master/8.%20Combining%20Histogram%20Equalization%20and%20Matching%20with%20GUI/step_3.png?raw=true)
+
+-	Step 4. Browse an image
+![Step 4](https://github.com/guledaaydemir/Image-Processing/blob/master/8.%20Combining%20Histogram%20Equalization%20and%20Matching%20with%20GUI/step_4.png?raw=true)
+
+-	Step 5. Browse a referance image  - Show Result
+![Step 5](https://github.com/guledaaydemir/Image-Processing/blob/master/8.%20Combining%20Histogram%20Equalization%20and%20Matching%20with%20GUI/step_5.png?raw=true)
 Special thanks to, [Özlem Öztürk](http://debis.deu.edu.tr/akademik/index.php?cat=3&akod=20013757). 
