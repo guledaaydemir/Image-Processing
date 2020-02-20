@@ -56,6 +56,6 @@ Compare your function with the built-in histogram equalization function of MATLA
 
 Write a Matlab function Y=match(X,Z) that matches the histogram of a given image X to the histogram of a reference image Z. You can use your own equalize() function in your implementation.(*imhist used instead)
 
-<img src="https://github.com/guledaaydemir/Image-Processing/blob/master/7.%20Histogram%20Matching/Histogram_Matching_Result.PNG" width="300" height="300">
+<img src="https://github.com/guledaaydemir/Image-Processing/blob/master/7.%20Histogram%20Matching/Histogram_Matching_Result.png" width="300" height="300">
 
 Special thanks to, [Özlem Öztürk](http://debis.deu.edu.tr/akademik/index.php?cat=3&akod=20013757). 
