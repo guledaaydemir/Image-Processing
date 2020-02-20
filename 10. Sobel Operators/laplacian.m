@@ -1,0 +1,12 @@
+image = imread("two_cats.jpg");
+normImage = im2double(image);
+Laplacian = fspecial('laplacian');
+output = imfilter(normImage,Laplacian); 
+outputImage = output * 255;
+figure;
+subplot(1,2,1);
+imshow(uint8(image));
+title("Original Image");
+subplot(1,2,2);
+imshow(uint8(outputImage));
+title("Laplacian Image");

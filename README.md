@@ -77,7 +77,7 @@ Try to embed these two functions ([equalize](https://github.com/guledaaydemir/Im
 -	Step 5. Browse a referance image  - Show Result
 ![Step 5](https://github.com/guledaaydemir/Image-Processing/blob/master/8.%20Combining%20Histogram%20Equalization%20and%20Matching%20with%20GUI/step_5.png?raw=true)
 
-###### 9. [Spatial Filtering Examples](https://github.com/guledaaydemir/Image-Processing/tree/master/9.%20Spatial%20Filtering)
+###### 9. [Spatial Filtering](https://github.com/guledaaydemir/Image-Processing/tree/master/9.%20Spatial%20Filtering)
 
 Generate a filter mask using the following code: 
 
@@ -97,5 +97,28 @@ Generate another filter mask using the following code:
 Perform spatial filtering with the above mask and display the output image. Change angle to 45, 90 and 135. Use the newly generated masks to filter the original image. Compare the difference between different outputs.
 
 ![Spatial Filtering with Changing Angle](https://github.com/guledaaydemir/Image-Processing/blob/master/9.%20Spatial%20Filtering/Spatial_Filtering_with_changing_angle.png?raw=true)
+
+###### 10. [Sobel Operators](https://github.com/guledaaydemir/Image-Processing/tree/master/10.%20Sobel%20Operators)
+
+Download the two_cats.jpg image and store it.
+- Load the image data.
+- Use a spatial filter to find and display the horizontal edges of the image.
+- Use a spatial filter to find and display the vertical edges of the image 
+hint: read the MATLAB documentation on fspecial
+
+![Step_c](https://github.com/guledaaydemir/Image-Processing/blob/master/10.%20Sobel%20Operators/step_c.png?raw=true)
+
+- Add the horizontal edge image to the vertical edge image to yield the following results:
+
+![Step_d](https://github.com/guledaaydemir/Image-Processing/blob/master/10.%20Sobel%20Operators/step_d.jpg?raw=true)
+
+Result 1 of [Sobel Operators Codes](https://github.com/guledaaydemir/Image-Processing/blob/master/10.%20Sobel%20Operators/sobel_operations.m) :
+
+![result_1](https://github.com/guledaaydemir/Image-Processing/blob/master/10.%20Sobel%20Operators/result_1.png?raw=true)
+
+- See if you can reproduce the following result, which is the edge magnitude map for for this image.
+Result 2 of [Laplacian Codes](https://github.com/guledaaydemir/Image-Processing/blob/master/10.%20Sobel%20Operators/laplacian.m)
+
+![result_2](https://github.com/guledaaydemir/Image-Processing/blob/master/10.%20Sobel%20Operators/result_2.png?raw=true)
 
 Special thanks to, [Özlem Öztürk](http://debis.deu.edu.tr/akademik/index.php?cat=3&akod=20013757). 
